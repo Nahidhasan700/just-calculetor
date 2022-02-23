@@ -1,0 +1,77 @@
+{
+margin: 0px;
+padding: 0px;
+}
+body {
+background: black;
+}
+calculatorBody{
+height: 550px;
+width: 300px;
+background: linear-gradient(90deg, #90c, #0ff);
+border-radius: 5%;
+position: relative;
+top: 40px;
+left: 20px;
+padding-right: 5vw;
+padding-left: 5vw;
+}
+inputnum{
+height: 100px;
+width: 250px;
+font-size:30px;
+border:0px;
+position: absolute;
+top: 20px;
+left: 40px;
+border-radius: 5%;
+background: white;
+font-weight: 1000;
+padding-left: 5px;
+padding-top: 10px;
+}
+inputsign{
+background: white;
+height: 50px;
+width: 250px;
+font-size:38px;
+border:0px;
+position: absolute;
+top: 139px;
+left: 40px;
+border-radius: 5%/5%;
+color: red;
+padding-left: 10px;
+}
+inputBtn{
+height: 50px;
+width: 60px;
+position: ;
+margin-left: 10px;
+border-radius: 20%;
+background: linear-gradient(black, blue, white);
+font-size: 35px;
+box-shadow: -5px 8px 2px rgba(0, 0, 0, 0.7);
+}
+inputBtn:active{
+box-shadow: -2px 4px 2px . rgba(0, 0, 0, 0.7);
+background: linear-gradient(blue, #fff);
+}
+inputBtn1{
+height: 240px;
+width: 230px;
+position: absolute;
+background: ;
+left: 10px;
+top: 230px;
+padding-top: 20px;
+}
+inputBtn2{
+height: 240px;
+width: 80px;
+position: absolute;
+background: ;
+left: 250px;
+top: 220px;
+padding-top: 17px;
+}

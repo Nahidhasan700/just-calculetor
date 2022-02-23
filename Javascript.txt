@@ -1,0 +1,7 @@
+Javascript
+function writeValue(rt) {
+document.formCal.inpt.value = document.formCal.inpt.value + rt;
+}
+function totl() {
+document.formCal.inpt2.value=eval(document.formCal.inpt.value);
+}

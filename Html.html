@@ -1,0 +1,37 @@
+<form name="formCal">
+    <!-- input / output -->
+    <div class="calculatorBody">
+        <textarea name="inpt" id="inputnum" rows="2" cols="14" disabled></textarea>
+        <textarea name="inpt2" id="inputsign" rows="1" cols="10" disabled>=</textarea>
+        <br> <br><br>
+        <!-- btn 123... -->
+        <div class="inputBtn1">
+            <input type="button" class="inputBtn" onclick="writeValue(1)" value="1">
+            <input type="button" class="inputBtn" onclick="writeValue(2)" value="2">
+            <input type="button" class="inputBtn" onclick="writeValue(3)" value="3">
+            <br><br>
+            <input type="button" class="inputBtn" onclick="writeValue(4)" value="4">
+            <input type="button" class="inputBtn" onclick="writeValue(5)" value="5">
+            <input type="button" class="inputBtn" onclick="writeValue(6)" value="6">
+            <br><br>
+            <input type="button" class="inputBtn" onclick="writeValue(7)" value="7">
+            <input type="button" class="inputBtn" onclick="writeValue(8)" value="8">
+            <input type="button" class="inputBtn" onclick="writeValue(9)" value="9">
+            <br><br>
+            <input type="button" class="inputBtn" onclick="writeValue('.')" value=".">
+            <input type="button" class="inputBtn" onclick="writeValue(0)" value="0">
+            <input type="button" class="inputBtn" onclick="total()" value="=">
+        </div>
+        <div class="inputBtn2">
+            <input type="button" class="calt" onclick="writeValue('+')" value="+">
+            <br><br>
+            <input type="button" class="calt" onclick="writeValue('-')" value="-">
+            <br><br>
+            <input type="button" class="calt" onclick="writeValue('*')" value="*">
+            <br><br>
+            <input type="button" class="calt" onclick="writeValue('/')" value="/">
+        </div>
+        <input type="reset" value="Reset all" class="rset">
+    </div>
+</form>
+<p id="labl">Nahid Hasan</p>
